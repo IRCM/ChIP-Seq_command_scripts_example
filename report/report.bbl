@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{fastqc}
+S.~Andrews.
+\newblock Fastqc: A quality control tool for high throughput sequence data.
+\newblock {\em http://www.bioinformatics.babraham.ac.uk/projects/fastqc/},
+  2012.
+
+\bibitem{homer}
+S.~Heinz, C.~Benner, N.~Spann, E.~Bertolino, and et~al.
+\newblock Simple combinations of lineage-determining transcription factors
+  prime cis-regulatory elements required for macrophage and b cell identities.
+\newblock {\em Mol Cell}, 4(38):576--589, 2010.
+
+\bibitem{bowtie2}
+B.~Langmead and S.~Salzberg.
+\newblock Fast gapped-read alignment with bowtie 2.
+\newblock {\em Nature Methods}, 9:357--359, 2012.
+
+\bibitem{trimmomatic}
+M.~Lohse, A.~M. Bolger, A.~Nagel, A.~R. Fernie, J.E. Lunn, M.~Stitt, and
+  B.~Usadel.
+\newblock Robina: a user-friendly, integrated software solution for
+  rna-seq-based transcriptomics.
+\newblock {\em Nucleic Acids Res.}, 40, 2012.
+
+\bibitem{macs}
+Y.~Zhang, T.~Liu, C.A. Meyer, J.~Eeckhoute, D.S. Johnson, C.~Bernstein,
+  B.E.~Nusbaum, R.M. Myers, M.~Brown, W.~Li, and X.S. Liu.
+\newblock Model-based analysis of chip-seq (macs).
+\newblock {\em Genome Biology}, 2008.
+
+\end{thebibliography}

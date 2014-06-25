@@ -1,0 +1,127 @@
+INFO  @ Sat, 10 May 2014 20:11:55: 
+# Command line: callpeak --bdg --gsize hs --keep-dup auto --qvalue 0.05 --format BAMPE --name ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V --treatment ../../bowtie2/3A_IP_M852V/3A_IP_M852V.bam --control ../../bowtie2/3A_Input_M852V/3A_Input_M852V.bam
+# ARGUMENTS LIST:
+# name = ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V
+# format = BAMPE
+# ChIP-seq file = ['../../bowtie2/3A_IP_M852V/3A_IP_M852V.bam']
+# control file = ['../../bowtie2/3A_Input_M852V/3A_Input_M852V.bam']
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+ 
+INFO  @ Sat, 10 May 2014 20:11:55: #1 read fragment files... 
+INFO  @ Sat, 10 May 2014 20:11:55: #1 read treatment fragments... 
+INFO  @ Sat, 10 May 2014 20:12:16:  1000000 
+INFO  @ Sat, 10 May 2014 20:13:03:  2000000 
+INFO  @ Sat, 10 May 2014 20:13:25:  3000000 
+INFO  @ Sat, 10 May 2014 20:13:45:  4000000 
+INFO  @ Sat, 10 May 2014 20:14:24:  5000000 
+INFO  @ Sat, 10 May 2014 20:14:43:  6000000 
+INFO  @ Sat, 10 May 2014 20:15:09:  7000000 
+INFO  @ Sat, 10 May 2014 20:15:35:  8000000 
+INFO  @ Sat, 10 May 2014 20:15:50:  9000000 
+INFO  @ Sat, 10 May 2014 20:16:07:  10000000 
+INFO  @ Sat, 10 May 2014 20:16:31:  11000000 
+INFO  @ Sat, 10 May 2014 20:16:52:  12000000 
+INFO  @ Sat, 10 May 2014 20:17:10:  13000000 
+INFO  @ Sat, 10 May 2014 20:17:48:  14000000 
+INFO  @ Sat, 10 May 2014 20:18:12:  15000000 
+INFO  @ Sat, 10 May 2014 20:18:42:  16000000 
+INFO  @ Sat, 10 May 2014 20:19:30:  17000000 
+INFO  @ Sat, 10 May 2014 20:19:58:  18000000 
+INFO  @ Sat, 10 May 2014 20:20:29:  19000000 
+INFO  @ Sat, 10 May 2014 20:20:48:  20000000 
+INFO  @ Sat, 10 May 2014 20:21:22:  21000000 
+INFO  @ Sat, 10 May 2014 20:21:40:  22000000 
+INFO  @ Sat, 10 May 2014 20:22:00:  23000000 
+INFO  @ Sat, 10 May 2014 20:22:38:  24000000 
+INFO  @ Sat, 10 May 2014 20:22:56:  25000000 
+INFO  @ Sat, 10 May 2014 20:23:40:  26000000 
+INFO  @ Sat, 10 May 2014 20:23:56:  27000000 
+INFO  @ Sat, 10 May 2014 20:24:14:  28000000 
+INFO  @ Sat, 10 May 2014 20:24:51:  29000000 
+INFO  @ Sat, 10 May 2014 20:25:06:  30000000 
+INFO  @ Sat, 10 May 2014 20:25:25:  31000000 
+INFO  @ Sat, 10 May 2014 20:25:55:  32000000 
+INFO  @ Sat, 10 May 2014 20:26:18:  33000000 
+INFO  @ Sat, 10 May 2014 20:26:47:  34000000 
+INFO  @ Sat, 10 May 2014 20:27:10:  35000000 
+INFO  @ Sat, 10 May 2014 20:27:28:  36000000 
+INFO  @ Sat, 10 May 2014 20:28:05:  37000000 
+INFO  @ Sat, 10 May 2014 20:28:46: #1.2 read input fragments... 
+INFO  @ Sat, 10 May 2014 20:29:13:  1000000 
+INFO  @ Sat, 10 May 2014 20:29:43:  2000000 
+INFO  @ Sat, 10 May 2014 20:30:10:  3000000 
+INFO  @ Sat, 10 May 2014 20:30:28:  4000000 
+INFO  @ Sat, 10 May 2014 20:30:49:  5000000 
+INFO  @ Sat, 10 May 2014 20:31:10:  6000000 
+INFO  @ Sat, 10 May 2014 20:31:29:  7000000 
+INFO  @ Sat, 10 May 2014 20:31:52:  8000000 
+INFO  @ Sat, 10 May 2014 20:32:22:  9000000 
+INFO  @ Sat, 10 May 2014 20:32:51:  10000000 
+INFO  @ Sat, 10 May 2014 20:33:08:  11000000 
+INFO  @ Sat, 10 May 2014 20:33:35:  12000000 
+INFO  @ Sat, 10 May 2014 20:34:12:  13000000 
+INFO  @ Sat, 10 May 2014 20:34:32:  14000000 
+INFO  @ Sat, 10 May 2014 20:34:55:  15000000 
+INFO  @ Sat, 10 May 2014 20:35:34:  16000000 
+INFO  @ Sat, 10 May 2014 20:35:56:  17000000 
+INFO  @ Sat, 10 May 2014 20:36:13:  18000000 
+INFO  @ Sat, 10 May 2014 20:36:58:  19000000 
+INFO  @ Sat, 10 May 2014 20:37:21:  20000000 
+INFO  @ Sat, 10 May 2014 20:37:37:  21000000 
+INFO  @ Sat, 10 May 2014 20:38:15:  22000000 
+INFO  @ Sat, 10 May 2014 20:38:36:  23000000 
+INFO  @ Sat, 10 May 2014 20:38:59:  24000000 
+INFO  @ Sat, 10 May 2014 20:39:32:  25000000 
+INFO  @ Sat, 10 May 2014 20:39:55:  26000000 
+INFO  @ Sat, 10 May 2014 20:40:33:  27000000 
+INFO  @ Sat, 10 May 2014 20:40:50:  28000000 
+INFO  @ Sat, 10 May 2014 20:41:14:  29000000 
+INFO  @ Sat, 10 May 2014 20:41:42:  30000000 
+INFO  @ Sat, 10 May 2014 20:42:08:  31000000 
+INFO  @ Sat, 10 May 2014 20:42:44:  32000000 
+INFO  @ Sat, 10 May 2014 20:43:23:  33000000 
+INFO  @ Sat, 10 May 2014 20:43:45:  34000000 
+INFO  @ Sat, 10 May 2014 20:44:16:  35000000 
+INFO  @ Sat, 10 May 2014 20:44:42:  36000000 
+INFO  @ Sat, 10 May 2014 20:45:00:  37000000 
+INFO  @ Sat, 10 May 2014 20:45:28:  38000000 
+INFO  @ Sat, 10 May 2014 20:45:46:  39000000 
+INFO  @ Sat, 10 May 2014 20:46:05:  40000000 
+INFO  @ Sat, 10 May 2014 20:46:44:  41000000 
+INFO  @ Sat, 10 May 2014 20:47:05:  42000000 
+INFO  @ Sat, 10 May 2014 20:47:33: #1 mean fragment size is determined as 192 bp from treatment 
+INFO  @ Sat, 10 May 2014 20:47:33: #1 note: mean fragment size in control is 184 bp -- value ignored 
+INFO  @ Sat, 10 May 2014 20:47:33: #1 fragment size = 192 
+INFO  @ Sat, 10 May 2014 20:47:33: #1  total fragments in treatment: 37845763 
+INFO  @ Sat, 10 May 2014 20:47:33: #1 calculate max duplicate fragments in single position based on binomial distribution... 
+INFO  @ Sat, 10 May 2014 20:47:33: #1  max_dup_tags based on binomial = 2 
+INFO  @ Sat, 10 May 2014 20:47:33: #1 filter out redundant fragments by allowing at most 2 identical fragment(s) 
+INFO  @ Sat, 10 May 2014 20:47:34: #1  fragments after filtering in treatment: 36730073 
+INFO  @ Sat, 10 May 2014 20:47:34: #1  Redundant rate of treatment: 0.03 
+INFO  @ Sat, 10 May 2014 20:47:34: #1  total fragments in control: 42544532 
+INFO  @ Sat, 10 May 2014 20:47:34: #1  for control, calculate max duplicate fragments in single position based on binomial distribution... 
+INFO  @ Sat, 10 May 2014 20:47:34: #1  max_dup_tags based on binomial = 2 
+INFO  @ Sat, 10 May 2014 20:47:34: #1 filter out redundant fragments by allowing at most 2 identical fragment(s) 
+INFO  @ Sat, 10 May 2014 20:47:35: #1  fragments after filtering in control: 41704257 
+INFO  @ Sat, 10 May 2014 20:47:35: #1  Redundant rate of control: 0.02 
+INFO  @ Sat, 10 May 2014 20:47:35: #1 finished! 
+INFO  @ Sat, 10 May 2014 20:47:35: #2 Build Peak Model... 
+INFO  @ Sat, 10 May 2014 20:47:35: #2 Skipped... 
+INFO  @ Sat, 10 May 2014 20:47:35: #2 Use 192 as fragment length 
+INFO  @ Sat, 10 May 2014 20:47:35: #3 Call peaks... 
+INFO  @ Sat, 10 May 2014 20:47:35: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 10 May 2014 21:06:59: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 10 May 2014 21:06:59: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V_treat_pileup.bdg 
+INFO  @ Sat, 10 May 2014 21:06:59: #3   Write bedGraph files for control lambda (after scaling if necessary)... ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V_control_lambda.bdg 
+INFO  @ Sat, 10 May 2014 21:06:59: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sat, 10 May 2014 21:06:59: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 10 May 2014 22:38:54: #4 Write output xls file... ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V_peaks.xls 
+INFO  @ Sat, 10 May 2014 22:38:55: #4 Write peak in narrowPeak format file... ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V_peaks.narrowPeak 
+INFO  @ Sat, 10 May 2014 22:38:55: #4 Write summits bed file... ../../macs_callpeak/3A_IP_M852V_vs_3A_Input_M852V/3A_IP_M852V_vs_3A_Input_M852V_summits.bed 
+INFO  @ Sat, 10 May 2014 22:38:55: Done! 

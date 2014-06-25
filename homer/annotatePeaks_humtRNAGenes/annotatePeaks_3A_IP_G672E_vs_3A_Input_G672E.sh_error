@@ -1,0 +1,118 @@
+
+	Peak file = ../../../macs/callpeak/3A_IP_G672E_vs_3A_Input_G672E/3A_IP_G672E_vs_3A_Input_G672E_peaks.narrowPeak
+	Genome = hg19
+	Organism = human
+	Effective Genome size set to hg19
+	Will extract conservation information
+	Will calculate CpG/GC content
+	Custom annotation GTF file: /sb/project/afb-431/genomes/Homo_sapiens/UCSC/hg19/Annotation/Genes/humtRNAGenes.gtf
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 8194
+		peakfile formatted lines: 0
+		Duplicated Peak IDs: 0
+
+	Peak File Statistics:
+		Total Peaks: 8194
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Extracting Sequence...
+
+	Extracting sequences from directory: /software/areas/ircm/tools/homerv4.5/.//data/genomes/hg19/
+	Extracting 1006 sequences from chr1
+	Extracting 786 sequences from chr2
+	Extracting 634 sequences from chr3
+	Extracting 339 sequences from chr4
+	Extracting 633 sequences from chr5
+	Extracting 567 sequences from chr6
+	Extracting 645 sequences from chr7
+	Extracting 185 sequences from chr8
+	Extracting 308 sequences from chr9
+	Extracting 360 sequences from chr10
+	Extracting 561 sequences from chr11
+	Extracting 417 sequences from chr12
+	Extracting 173 sequences from chr13
+	Extracting 290 sequences from chr14
+	Extracting 207 sequences from chr15
+	Extracting 174 sequences from chr16
+	Extracting 278 sequences from chr17
+	Extracting 85 sequences from chr18
+	Extracting 139 sequences from chr19
+	Extracting 78 sequences from chr20
+	Extracting 98 sequences from chr21
+	Extracting 50 sequences from chr22
+	Extracting 123 sequences from chrX
+	Extracting 58 sequences from chrY
+	Reading Positions...
+Conservation information not present in /software/areas/ircm/tools/homerv4.5/.//data/genomes/hg19//conservation/ (refer to documentation)
+Skipping Conservation
+	Calculating average conservation...
+	Calculating CpG/GC Content of Peaks
+
+	Sequences processed:
+		Auto detected maximum sequence length of 198 bp
+		8194 total
+
+	-----------------------
+	Finding Closest TSS...
+	Processing custom annotation file...
+	Prioritizing Annotations: .........................
+	Annotating:.........................
+		Annotation	Number of peaks	Total size (bp)	Log2 Enrichment
+		TTS	547.0	502693	10.578
+		Intergenic	0.0	2632400611	-10.873
+		Promoter	1328.0	642504	11.503
+	Annotating:........................
+		Annotation	Number of peaks	Total size (bp)	Log2 Enrichment
+		TTS	71.0	500750	5.510
+		Intergenic	7901.0	2631935313	-0.052
+		Promoter	222.0	640302	6.800
+	NOTE: If this part takes more than 2 minutes, there is a good chance
+		your machine ran out of memory: consider hitting ctrl+C and rerunning
+		the command with "-noann"
+	To capture annotation stats in a file, use "-annStats <filename>" next time
+	Annotating:........................
+		Annotation	Number of peaks	Total size (bp)	Log2 Enrichment
+		3UTR	51.0	21904606	-0.185
+		Other	0.0	3964858	-13.000
+		Unknown?	0.0	18108	-13.000
+		RNA	1.0	115911	1.704
+		miRNA	0.0	33955	-13.000
+		ncRNA	20.0	4229874	0.837
+		TTS	118.0	27038935	0.721
+		LINE	1293.0	625107707	-0.356
+		LINE?	0.0	10448	-13.000
+		srpRNA	3.0	254379	2.155
+		SINE	739.0	381486576	-0.451
+		RC	0.0	443820	-13.000
+		tRNA	110.0	92622	8.809
+		DNA?	1.0	265942	0.506
+		pseudo	6.0	1817669	0.318
+		DNA	174.0	96279054	-0.551
+		Exon	132.0	34135617	0.547
+		Intron	1492.0	622329028	-0.143
+		Intergenic	1918.0	917808040	-0.341
+		Promoter	149.0	30203783	0.898
+		5UTR	7.0	2484151	0.090
+		snoRNA	0.0	119	-13.000
+		LTR?	0.0	21489	-13.000
+		scRNA	4.0	116897	3.692
+		CpG-Island	85.0	9459455	1.763
+		Low_complexity	24.0	15524989	-0.776
+		LTR	1115.0	260746190	0.692
+		Simple_repeat	51.0	24961118	-0.374
+		snRNA	10.0	325000	3.539
+		Unknown	0.0	1255665	-13.000
+		SINE?	0.0	43068	-13.000
+		Satellite	679.0	12389517	4.372
+		rRNA	12.0	164815	4.781
+	Counting Tags in Peaks from each directory...
+	Organism: human
+	Loading Gene Informaiton...
+	Outputing Annotation File...
+	Done annotating peaks file
+

@@ -1,0 +1,25 @@
+----------------------------------------
+Begin PBS Prologue Sun May 11 11:09:10 EDT 2014 1399820951
+Job ID:		16059421.gm-1r16-n04.guillimin.clumeq.ca
+Username:	blancha
+Group:		afb-431-01
+Nodes:		sw-2r13-n31
+End PBS Prologue Sun May 11 11:09:11 EDT 2014 1399820951
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Sun May 11 11:09:11 EDT 2014 1399820951
+Job ID:		16059421.gm-1r16-n04.guillimin.clumeq.ca
+Username:	blancha
+Group:		afb-431-01
+Job Name:	findMotifs_3A_IP_vs_3A_IP_M852V.sh
+Session:	3904
+Limits:		neednodes=1:ppn=3,nodes=1:ppn=3,pmem=2700mb,walltime=06:00:00
+Resources:	cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue:		sw-serial
+Account:	afb-431-ac
+Exit code:	0
+Nodes:	sw-2r13-n31
+Killing leftovers...
+
+End PBS Epilogue Sun May 11 11:09:12 EDT 2014 1399820952
+----------------------------------------

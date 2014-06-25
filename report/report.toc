@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Sample names and read statistics}{3}{section.1}
+\contentsline {paragraph}{}{3}{section*.2}
+\contentsline {section}{\numberline {2}Alignment with Bowtie2}{5}{section.2}
+\contentsline {section}{\numberline {3}UCSC track files}{5}{section.3}
+\contentsline {section}{\numberline {4}Peak calling with MACS2}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}callpeak}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}bdgdiff}{5}{subsection.4.2}
+\contentsline {section}{\numberline {5}HOMER}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Gene and genome ontology}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Motifs}{6}{subsection.5.2}
+\contentsline {section}{\numberline {6}Command logs}{6}{section.6}
+\contentsline {section}{Appendices}{7}{section*.3}
+\contentsline {section}{\numberline {A}Software versions}{7}{appendix.A}

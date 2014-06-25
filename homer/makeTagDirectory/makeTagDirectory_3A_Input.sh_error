@@ -1,0 +1,44 @@
+	Will parse file: ../../../bowtie2/3A_Input/3A_Input.bam
+
+	Creating directory: ../../../homer/makeTagDirectory/3A_Input/ and removing existing *.tags.tsv
+
+	Treating ../../../bowtie2/3A_Input/3A_Input.bam as a bam file
+	Reading alignment file ../../../bowtie2/3A_Input/3A_Input.bam
+
+	Optimizing tag files...
+	Estimated genome size = 3094253900
+	Estimated average read density = 0.010534 per bp
+	Total Tags = 32594671.0
+	Total Positions = 58664860
+	Average tag length = 49.9
+	Median tags per position = 0 (ideal: 1)
+	Average tags per position = 0.100
+	Fragment Length Estimate: 152
+	Peak Width Estimate: 252
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.0
+		Diff strand fold enrichment: 1.2
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - may have low enrichment with lots of background
+
+	Checking GC bias...
+		Current Fragment length estimate: 152
+	Checking Tag/Fragment sequence for bias...
+		chr1
+		chr2
+		chr3
+		chr4
+		chr5
+		chr6
+		chr7
+		chr8
+		chr9
+		chr10
+		chr11
+		chr12
+		chr13
+		chr14
+		chr15
+		chr16
+=>> PBS: job killed: walltime 7237 exceeded limit 7200

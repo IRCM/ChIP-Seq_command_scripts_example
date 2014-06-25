@@ -1,0 +1,130 @@
+
+	Peak file = ../../../macs/bdgdiff/3A_IP_vs_3A_IP_G672E/3A_IP_vs_3A_IP_G672E_c3.0_cond1.bed
+	Genome = hg19
+	Organism = human
+	Effective Genome size set to hg19
+	Will extract conservation information
+	Will calculate CpG/GC content
+	Will perform Gene Ontology analysis - output to directory = ../../../homer/annotatePeaks/3A_IP_vs_3A_IP_G672E/gene_ontology/
+	Will perform Genome Ontology analysis - output to directory = ../../../homer/annotatePeaks/3A_IP_vs_3A_IP_G672E/genome_ontology/
+		Warning - might want to set the genome size with -gsize (currently hg19)
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 1694
+		peakfile formatted lines: 0
+		Duplicated Peak IDs: 0
+
+	Peak File Statistics:
+		Total Peaks: 1694
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Extracting Sequence...
+
+	Extracting sequences from directory: /software/areas/ircm/tools/homerv4.5/.//data/genomes/hg19/
+	Extracting 175 sequences from chr1
+	Extracting 102 sequences from chr2
+	Extracting 83 sequences from chr3
+	Extracting 70 sequences from chr4
+	Extracting 128 sequences from chr5
+	Extracting 216 sequences from chr6
+	Extracting 114 sequences from chr7
+	Extracting 77 sequences from chr8
+	Extracting 63 sequences from chr9
+	Extracting 69 sequences from chr10
+	Extracting 76 sequences from chr11
+	Extracting 83 sequences from chr12
+	Extracting 57 sequences from chr13
+	Extracting 58 sequences from chr14
+	Extracting 44 sequences from chr15
+	Extracting 67 sequences from chr16
+	Extracting 50 sequences from chr17
+	Extracting 38 sequences from chr18
+	Extracting 59 sequences from chr19
+	Extracting 18 sequences from chr20
+	Extracting 25 sequences from chr21
+	Extracting 12 sequences from chr22
+	Extracting 8 sequences from chrX
+	Extracting 2 sequences from chrY
+	Reading Positions...
+Conservation information not present in /software/areas/ircm/tools/homerv4.5/.//data/genomes/hg19//conservation/ (refer to documentation)
+Skipping Conservation
+	Calculating average conservation...
+	Calculating CpG/GC Content of Peaks
+
+	Sequences processed:
+		Auto detected maximum sequence length of 200 bp
+		1694 total
+
+	-----------------------
+	Finding Closest TSS...
+	Annotating:........................
+		Annotation	Number of peaks	Total size (bp)	Log2 Enrichment
+		3UTR	10.0	21904606	-0.263
+		miRNA	0.0	33955	-10.726
+		ncRNA	2.0	4229874	-0.212
+		TTS	24.0	27038935	0.697
+		pseudo	3.0	1817669	1.591
+		Exon	25.0	34135617	0.419
+		Intron	494.0	1168246711	-0.373
+		Intergenic	1046.0	1802778134	0.083
+		Promoter	88.0	30203783	2.411
+		5UTR	2.0	2484151	0.556
+		snoRNA	0.0	119	-10.726
+		snRNA	0.0	105	-10.726
+	NOTE: If this part takes more than 2 minutes, there is a good chance
+		your machine ran out of memory: consider hitting ctrl+C and rerunning
+		the command with "-noann"
+	To capture annotation stats in a file, use "-annStats <filename>" next time
+	Annotating:........................
+		Annotation	Number of peaks	Total size (bp)	Log2 Enrichment
+		3UTR	10.0	21904606	-0.262
+		Other	0.0	3964858	-10.726
+		Unknown?	0.0	18108	-10.726
+		RNA	0.0	115911	-10.726
+		miRNA	0.0	33955	-10.726
+		ncRNA	2.0	4229874	-0.211
+		TTS	24.0	27038935	0.698
+		LINE	216.0	625107707	-0.664
+		LINE?	0.0	10448	-10.726
+		srpRNA	1.0	254379	2.844
+		SINE	176.0	381486576	-0.247
+		RC	0.0	443820	-10.726
+		tRNA	97.0	92622	10.902
+		DNA?	0.0	265942	-10.726
+		pseudo	3.0	1817669	1.592
+		DNA	37.0	96279054	-0.510
+		Exon	25.0	34135617	0.420
+		Intron	263.0	622329028	-0.373
+		Intergenic	403.0	917808040	-0.318
+		Promoter	88.0	30203783	2.412
+		5UTR	2.0	2484151	0.557
+		snoRNA	0.0	119	-10.726
+		LTR?	0.0	21489	-10.726
+		scRNA	3.0	116897	5.551
+		CpG-Island	49.0	9459455	3.242
+		Low_complexity	3.0	15524989	-1.502
+		LTR	171.0	260746190	0.261
+		Simple_repeat	10.0	24961118	-0.450
+		snRNA	4.0	325000	4.491
+		Unknown	0.0	1255665	-10.726
+		SINE?	0.0	43068	-10.726
+		Satellite	96.0	12389517	3.823
+		rRNA	11.0	164815	6.930
+	Performing Gene Ontology Analysis...
+rm: cannot remove `0.538699584870727.bg.tmp': No such file or directory
+	--------------------------------------
+	Performing Genome Ontology Analysis...
+	Input is a Peak file
+	Analyzing 1 of 3 annotation sets (basic - 18 total)
+	Analyzing 2 of 3 annotation sets (repeats - 1475 total)
+	Analyzing 3 of 3 annotation sets (custom - 0 total) Skipping...
+	Counting Tags in Peaks from each directory...
+	Organism: human
+	Loading Gene Informaiton...
+	Outputing Annotation File...
+	Done annotating peaks file
+

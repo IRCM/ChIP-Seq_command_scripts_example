@@ -1,0 +1,25 @@
+----------------------------------------
+Begin PBS Prologue Mon May 12 10:50:28 EDT 2014 1399906228
+Job ID:		16088196.gm-1r16-n04.guillimin.clumeq.ca
+Username:	blancha
+Group:		afb-431-01
+Nodes:		sw-2r13-n71
+End PBS Prologue Mon May 12 10:50:28 EDT 2014 1399906228
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Mon May 12 12:16:43 EDT 2014 1399911403
+Job ID:		16088196.gm-1r16-n04.guillimin.clumeq.ca
+Username:	blancha
+Group:		afb-431-01
+Job Name:	samtools_sort_by_coordinates_3A_IP.sh
+Session:	29520
+Limits:		neednodes=1:ppn=1,nodes=1:ppn=1,pmem=2700mb,walltime=05:00:00
+Resources:	cput=00:20:07,mem=871560kb,vmem=1160292kb,walltime=01:26:15
+Queue:		sw-serial
+Account:	afb-431-ac
+Exit code:	0
+Nodes:	sw-2r13-n71
+Killing leftovers...
+
+End PBS Epilogue Mon May 12 12:16:45 EDT 2014 1399911405
+----------------------------------------

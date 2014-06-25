@@ -1,0 +1,7 @@
+File1	File2	Lane	Sample	Condition
+HI.1674.007.Index_13.DF_3A-IP_R1.fastq.gz	HI.1674.007.Index_13.DF_3A-IP_R2.fastq.gz	007	3A_IP	3A_IP
+HI.1674.007.Index_15.DF_3A-IP-G672E_R1.fastq.gz	HI.1674.007.Index_15.DF_3A-IP-G672E_R2.fastq.gz	007	3A_IP_G672E	3A_IP_G672E
+HI.1674.007.Index_16.DF_3A-IP-M852V_R1.fastq.gz	HI.1674.007.Index_16.DF_3A-IP-M852V_R2.fastq.gz	007	3A_IP_M852V	3A_IP_M852V
+HI.1674.007.Index_2.DF_3A-Input_R1.fastq.gz	HI.1674.007.Index_2.DF_3A-Input_R2.fastq.gz	007	3A_Input	3A_Input
+HI.1674.007.Index_4.DF_3A-Input-G672E_R1.fastq.gz	HI.1674.007.Index_4.DF_3A-Input-G672E_R2.fastq.gz	007	3A_Input_G672E	3A_Input_G672E
+HI.1674.007.Index_7.DF_3A-Input-M852V_R1.fastq.gz	HI.1674.007.Index_7.DF_3A-Input-M852V_R2.fastq.gz	007	3A_Input_M852V	3A_Input_M852V

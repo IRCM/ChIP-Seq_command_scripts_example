@@ -1,0 +1,25 @@
+----------------------------------------
+Begin PBS Prologue Mon May 12 15:22:46 EDT 2014 1399922566
+Job ID:		16098755.gm-1r16-n04.guillimin.clumeq.ca
+Username:	blancha
+Group:		afb-431-01
+Nodes:		sw-2r13-n69
+End PBS Prologue Mon May 12 15:22:47 EDT 2014 1399922567
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Mon May 12 16:06:16 EDT 2014 1399925176
+Job ID:		16098755.gm-1r16-n04.guillimin.clumeq.ca
+Username:	blancha
+Group:		afb-431-01
+Job Name:	bamtobigwig_3A_Input_G672E.sh
+Session:	27911
+Limits:		neednodes=1:ppn=1,nodes=1:ppn=1,pmem=2700mb,walltime=06:00:00
+Resources:	cput=00:21:15,mem=1953028kb,vmem=2185864kb,walltime=00:43:18
+Queue:		sw-serial
+Account:	afb-431-ac
+Exit code:	0
+Nodes:	sw-2r13-n69
+Killing leftovers...
+
+End PBS Epilogue Mon May 12 16:06:16 EDT 2014 1399925176
+----------------------------------------

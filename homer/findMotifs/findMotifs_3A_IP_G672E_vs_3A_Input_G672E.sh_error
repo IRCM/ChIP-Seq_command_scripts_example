@@ -1,0 +1,9 @@
+
+Selected Options:
+	Input file = ../../../macs/callpeak/3A_IP_G672E_vs_3A_Input_G672E/3A_IP_G672E_vs_3A_Input_G672E_peaks.narrowPeak
+	Promoter Set = hg19
+	Output Directory = ../../../homer/findMotifs/3A_IP_G672E_vs_3A_Input_G672E/
+
+!!! hg19 not found in /software/areas/ircm/tools/homerv4.5/.//config.txt
+	Try typing "perl /software/areas/ircm/tools/homerv4.5/.//configureHomer.pl -list" to see available promoter sets
+	If avaliable, type "perl /software/areas/ircm/tools/homerv4.5/.//configureHomer.pl -install hg19" to install

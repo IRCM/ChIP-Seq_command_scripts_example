@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{appendix}
+\usepackage{hyperref}
+\usepackage{datatool}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+
+
+\title{ ChIP-Seq Analysis Report \\ Run 1674 \\ COU-BIF-P2 \\ Genome hg19 }
+
+\author{ Bioinformatics Core Facility, IRCM \\\\ Alexis Blanchet-Cohen, Bioinformatics analyst \\ alexis.blanchet-cohen@ircm.qc.ca}
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % removes numbering from title page.
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Sample names and read statistics}
+
+\paragraph{} Table \ref{table:read_statistics} contains the sample names and the read statistics for the raw reads coming off the sequencer. 
+Detailed statistics on the quality of the raw reads were computed with FastQC \cite{fastqc}, and can be found in the \emph{fastqc} folder. After examining the quality of the reads, no trimming was deemed necessary.
+
+\begin{landscape}
+
+\begin{table}[ht] 
+\label{table:read_statistics}
+\caption{Read statistics}
+ \centering
+\DTLloadrawdb{db}{nanuq.csv}
+\renewcommand{\dtldisplaystarttab}{\toprule}
+ \renewcommand{\dtldisplayafterhead}{\midrule}
+ \renewcommand{\dtldisplayendtab}{\\\bottomrule}
+\DTLdisplaydb{db}
+
+\end{table}
+
+\end{landscape}
+
+\section{Alignment with Bowtie2}
+
+The reads were aligned to the hg19 genome with Bowtie2 \cite{bowtie2}. 
+The alignment files (BAM files) outputted by Bowtie2 can be viewed with the open source software IGV (\url{http://www.broadinstitute.org/software/igv/download}). The BAM files can be found in the folder \emph{Analysis/bowtie2}
+
+\section{UCSC track files}
+
+Since the BAM files are large files, they were converted to smaller bigWig files, which can be uploaded faster in IGV or the UCSC Genome Browser. 
+\\The bigWig files are less detailed than the BAM files. Any information about the quality of the alignments or mutations in the aligned reads, for example, is not present in the bigWig files. The bigWig files can be found in the folder \emph{Analysis/bigWig}
+
+\section{Peak calling with MACS2}
+
+\subsection{callpeak}
+
+Peaks were called using the MACS2 \cite{macs} function callpeak. The results can be found in the folder \emph{Analysis/macs/callpeak}
+
+\subsection{bdgdiff}
+
+The MACS2 function bdgdiff was used to find the differential peaks between the treatment conditions, after the treatment versus control (IP versus input) peaks were found. The MACS2 bdgdiff results are in the folder \emph{Analysis/bdgdiff}.
+
+\section{HOMER}
+
+Peaks called with MACS were annotated with HOMER \cite{homer}, using RefSeq annotations. The HOMER results can be found in the folder \emph{Analysis/homer}.
+
+\subsection{Gene and genome ontology}
+Gene ontology and genome ontology analyses were also carried out with HOMER. The gene ontology and genome ontology results are found in the subfolders \emph{gene\_ontology} and \emph{genome\_ontology} for each peak comparison.
+
+\subsection{Motifs}
+Motif discovery was carried out with HOMER. The motif results are in the subfolders \emph{gene\_ontology} and \emph{genome\_ontology} for each peak comparison.
+
+\section{Command logs}
+
+All the command used during the analysis were logged in the folder \emph{Analysis/scripts}.
+
+\clearpage
+\appendix
+\appendixpage
+\addappheadtotoc
+
+\section{Software versions}
+\begin{itemize}
+\item Bowtie 2.1.0
+\item MACS 2.0.10
+\item HOMER 4.5.0
+\end{itemize}
+
+\clearpage
+\bibliography{references}
+\bibliographystyle{plain}
+
+\end{document}

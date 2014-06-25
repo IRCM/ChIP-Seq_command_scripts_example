@@ -1,0 +1,54 @@
+	Will parse file: ../../../bowtie2/3A_IP/3A_IP.bam
+
+	Creating directory: ../../../homer/makeTagDirectory/3A_IP/ and removing existing *.tags.tsv
+
+	Treating ../../../bowtie2/3A_IP/3A_IP.bam as a bam file
+	Reading alignment file ../../../bowtie2/3A_IP/3A_IP.bam
+
+	Optimizing tag files...
+	Estimated genome size = 3094260067
+	Estimated average read density = 0.010526 per bp
+	Total Tags = 32571509.5
+	Total Positions = 40110088
+	Average tag length = 49.9
+	Median tags per position = 0 (ideal: 1)
+	Average tags per position = 0.455
+	Fragment Length Estimate: 164
+	Peak Width Estimate: 306
+	Autocorrelation quality control metrics:
+		Same strand fold enrichment: 1.3
+		Diff strand fold enrichment: 1.5
+		Same / Diff fold enrichment: 0.9
+
+		Guessing sample is ChIP-Seq - autocorrelation looks good.
+
+	Checking GC bias...
+		Current Fragment length estimate: 164
+	Checking Tag/Fragment sequence for bias...
+		chr1
+		chr2
+		chr3
+		chr4
+		chr5
+		chr6
+		chr7
+		chr8
+		chr9
+		chr10
+		chr11
+		chr12
+		chr13
+		chr14
+		chr15
+		chr16
+		chr17
+		chr18
+		chr19
+		chr20
+		chr21
+		chr22
+		chrX
+		chrY
+		chrM
+	Avg Fragment GC% = 41.80%
+	Avg Expected GC% = 40.54%

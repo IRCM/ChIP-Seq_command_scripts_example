@@ -1,0 +1,8 @@
+[project]
+type=chip-seq
+genome=hg19
+trim=no
+
+[macs_callpeak]
+comparisons=3A_IP vs 3A_Input, 3A_IP_G672E vs 3A_Input_G672E, 3A_IP_M852V vs 3A_Input_M852V
+

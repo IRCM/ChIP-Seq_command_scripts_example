@@ -1,0 +1,7 @@
+"Name","Run","Run Type","Library Type","Number of Reads","Number of Cycles","Duplicate"
+"DF_3A-Input.G672E","1674","PAIRED_END","ChIP-Seq","41,834,711","50","6.456 %"
+"DF_3A-Input.M852V","1674","PAIRED_END","ChIP-Seq","44,001,716","50","6.13 %"
+"DF_3A-Input","1674","PAIRED_END","ChIP-Seq","36,100,153","50","6.602 %"
+"DF_3A-IP.M852V","1674","PAIRED_END","ChIP-Seq","39,326,721","50","11.015 %"
+"DF_3A-IP","1674","PAIRED_END","ChIP-Seq","36,493,637","50","24.649 %"
+"DF_3A-IP.G672E","1674","PAIRED_END","ChIP-Seq","38,060,476","50","22.407 %"

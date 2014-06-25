@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Sample names and read statistics}{}% 1
+\BOOKMARK [1][-]{section.2}{Alignment with Bowtie2}{}% 2
+\BOOKMARK [1][-]{section.3}{UCSC track files}{}% 3
+\BOOKMARK [1][-]{section.4}{Peak calling with MACS2}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{callpeak}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{bdgdiff}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{HOMER}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Gene and genome ontology}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Motifs}{section.5}% 9
+\BOOKMARK [1][-]{section.6}{Command logs}{}% 10
+\BOOKMARK [1][-]{section*.3}{Appendices}{}% 11
+\BOOKMARK [1][-]{appendix.A}{Software versions}{}% 12

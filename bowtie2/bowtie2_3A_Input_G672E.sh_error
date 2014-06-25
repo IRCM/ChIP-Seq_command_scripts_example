@@ -1,0 +1,16 @@
+41833738 reads; of these:
+  41833738 (100.00%) were paired; of these:
+    1465561 (3.50%) aligned concordantly 0 times
+    34812599 (83.22%) aligned concordantly exactly 1 time
+    5555578 (13.28%) aligned concordantly >1 times
+    ----
+    1465561 pairs aligned concordantly 0 times; of these:
+      41638 (2.84%) aligned discordantly 1 time
+    ----
+    1423923 pairs aligned 0 times concordantly or discordantly; of these:
+      2847846 mates make up the pairs; of these:
+        1965044 (69.00%) aligned 0 times
+        341143 (11.98%) aligned exactly 1 time
+        541659 (19.02%) aligned >1 times
+97.65% overall alignment rate
+[samopen] SAM header is present: 25 sequences.
